@@ -1,62 +1,82 @@
 ---
-export interface Props {
-	title: string;
-	body: string;
-	href: string;
-}
-
-const { href, title, body } = Astro.props;
+import Layout from "../layouts/Layout.astro";
 ---
 
-<li class="link-card">
-	<a href={href}>
-		<h2>
-			{title}
-			<span>&rarr;</span>
-		</h2>
-		<p>
-			{body}
-		</p>
-	</a>
-</li>
-<style>
-	.link-card {
-		list-style: none;
-		display: flex;
-		padding: 0.15rem;
-		background-color: white;
-		background-image: var(--accent-gradient);
-		background-size: 400%;
-		border-radius: 0.5rem;
-		background-position: 100%;
-		transition: background-position 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-		box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
-	}
 
-	.link-card > a {
-		width: 100%;
-		text-decoration: none;
-		line-height: 1.4;
-		padding: 1rem 1.3rem;
-		border-radius: 0.35rem;
-		color: #111;
-		background-color: white;
-		opacity: 0.8;
-	}
-	h2 {
-		margin: 0;
-		font-size: 1.25rem;
-		transition: color 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-	}
-	p {
-		margin-top: 0.5rem;
-		margin-bottom: 0;
-		color: #444;
-	}
-	.link-card:is(:hover, :focus-within) {
-		background-position: 0;
-	}
-	.link-card:is(:hover, :focus-within) h2 {
-		color: rgb(var(--accent));
-	}
-</style>
+
+
+
+<Layout>
+    <br />
+    <br />
+    <br />
+<div class="_4-blocks-wrapper">
+    <div
+      data-w-id="b79ca5fd-9be8-ba90-1e9c-2e4157550671"
+      class="four-blocks"
+      style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
+    >
+      <div class="first-row">
+        <div class="course-card-white">
+          <div class="logo-block">
+            <img
+              src="https://assets.website-files.com/62878504813fcffd4a688608/62c625dd0d1e7d11cdee049e_Group%202173.svg"
+              loading="lazy"
+              alt=""
+              class="image-16"
+            />
+          </div><div class="description-block">
+            <p class="paragraph-3">Everyday words</p>
+          </div>
+        </div><div
+          id="w-node-_11bbd7e9-97dd-ba86-517e-e8ca1e320c8a-29dbbb03"
+          class="course-card-white--big"
+        >
+          <div class="logo-block-white-big">
+            <img
+              src="https://assets.website-files.com/62878504813fcffd4a688608/62c625dd35fd031175af81af_ri_computer-fill.svg"
+              loading="lazy"
+              id="w-node-_3d30d4ce-cd8c-9d7d-e6a1-b3d0bed8edbe-29dbbb03"
+              alt=""
+              class="image-19"
+            />
+          </div><div class="description-block">
+            <p class="paragraph-3-white-big">Translate&nbsp; &nbsp; &nbsp; &nbsp; </p>
+          </div>
+        </div>
+      </div><div class="second-row">
+        <div
+          id="w-node-aadeb990-363c-485f-20ed-9a28ab62d850-29dbbb03"
+          class="course-card-white"
+        >
+          <div class="logo-block-white-3">
+            <img
+              src="https://assets.website-files.com/62878504813fcffd4a688608/62c625ddd96f0b32d7426ac3_uis_graph-bar.svg"
+              loading="lazy"
+              id="w-node-b3226e5f-2fff-6c75-764a-f3fc94cf695f-29dbbb03"
+              alt=""
+              class="image-17"
+            />
+          </div><div class="description-block">
+            <p class="paragraph-3">Live <br /> Pronouniation</p>
+          </div>
+        </div><div
+          id="w-node-b6a03bc3-81aa-9b1b-91be-bac95955908b-29dbbb03"
+          class="course-card-white"
+        >
+          <div class="logo-block-white-4">
+            <img
+              src="https://assets.website-files.com/62878504813fcffd4a688608/62c625de787b686536bdca04_foundation_graph-pie.svg"
+              loading="lazy"
+              id="w-node-ed0f3172-e028-c312-5cb4-06f4c03ed3b8-29dbbb03"
+              alt=""
+              class="image-18"
+            />
+          </div><div class="description-block">
+            <p class="paragraph-3">Learn at ease</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>
