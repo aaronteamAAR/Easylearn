@@ -391,14 +391,11 @@ footer {
   align-content: center;
   justify-content: space-between;
 }
-@media (max-width: 309px) {
+@media (max-width: 390px) {
     
-  body{
-    box-sizing: border-box;
-    margin: 0;
-  }
+
 .h1-text{
-  zoom: 0.8;
+  zoom: 0.9;
 }
 
 }
@@ -407,7 +404,9 @@ footer {
     zoom: 0.8;
   }
 
- 
+.subadvert{
+  margin-left: 3em;
+} 
   .nav-bar{
     font-size: 17px;
 
