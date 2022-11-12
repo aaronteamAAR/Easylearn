@@ -9,5 +9,10 @@ devOptions: {
 
   export default defineConfig({
     // ...
+    output: "server",
+    adapter: node({
+      mode: "middleware"
+    }),
+  
     integrations: [tailwind(), react()],
   });
