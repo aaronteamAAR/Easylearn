@@ -404,9 +404,7 @@ footer {
     zoom: 0.8;
   }
 
-.subadvert{
-  margin-left: 3em;
-} 
+
   .nav-bar{
     font-size: 17px;
 
@@ -465,7 +463,7 @@ footer {
 }
 
 .subadvert{
-  margin-left: -6em;
+  margin-left: -5em;
   width: 50%;
 }
   .paragraph-5{
