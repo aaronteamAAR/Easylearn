@@ -13,6 +13,10 @@
   "dependencies": {
     "@astrojs/react": "^1.2.2",
     "@astrojs/tailwind": "^2.1.2",
+    "aos": "^3.0.0-beta.6",
     "astro": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/aos": "^3.0.4"
   }
 }
