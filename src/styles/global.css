@@ -7,7 +7,10 @@
 }
 
 body {
-  background-color: #f6f4f0;
+ 
+  justify-content: center;
+  align-content: center;
+      background-color: #f6f4f0;
   box-sizing: border-box;
 }
 
@@ -388,17 +391,23 @@ footer {
   align-content: center;
   justify-content: space-between;
 }
-
-/* @media (max-width: 320px) {
+@media (max-width: 309px) {
     
+  body{
+    box-sizing: border-box;
+    margin: 0;
+  }
+.h1-text{
+  zoom: 0.8;
+}
 
-
-} */
+}
 @media screen and (max-width: 900px) {
   .h1-wrapper {
     zoom: 0.8;
   }
 
+ 
   .nav-bar{
     font-size: 17px;
 
