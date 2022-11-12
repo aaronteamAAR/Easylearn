@@ -12,10 +12,7 @@ devOptions: {
     output: 'server',
     adapter: vercel(),
     // ...
-    output: "server",
-    adapter: node({
-      mode: "middleware"
-    }),
+  
   
     integrations: [tailwind(), react()],
   });
