@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+     background-color: #f6f4f0;
+}
+
+
+.container{
+    width: 45%;
+    min-width: 500px;
+    
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.wrapper{
+    background-color: #f6f4f0;
+    margin-bottom: 20px;
+    padding:  15px 40px;
+    border-radius: 5px;
+    box-shadow: 0 15px 25px rgba(0, 0, 50, 0.2);
+}
+
+ul{
+   list-style: circle;
+}
+
+.toogle,
+.content{
+    font-family: 'Space grotesk', sans-serif;
+}
+
+.toogle{
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 0.011em;
+    padding: 15px 0;
+
+}
+
+
+.content{
+    position: relative;
+    font-size: 14px;
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+footer{
+	display: flex;
+	margin-top: 44em;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 00.05px;
+	bottom: 0;
+	align-content: center;
+	justify-content: center;
+}

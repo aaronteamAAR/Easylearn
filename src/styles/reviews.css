@@ -1,0 +1,12 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+div > p{
+    margin-top: 13em;
+    font-size: x-large;
+    text-transform: capitalize;
+}
