@@ -396,7 +396,11 @@ footer {
 
 .h1-text{
   zoom: 0.9;
+  text-align: center;
 }
+
+
+
 
 }
 @media screen and (max-width: 900px) {
