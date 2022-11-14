@@ -438,6 +438,13 @@ footer {
     display: none;
   }
 
+
+  .description{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    zoom: 0.7;
+  }
   .heading {
     box-sizing: border-box;
     transform: translate(-20%, 20%);
