@@ -408,10 +408,7 @@ footer {
     zoom: 0.8;
   }
 
-.cards{
-  width: fit-content;
-  height: fit-content;
-}
+
   .nav-bar{
     font-size: 17px;
 
@@ -453,7 +450,8 @@ footer {
   }
 
   .heading {
-    transform: translate(-20%, 30%);
+    box-sizing: border-box;
+    transform: translate(-20%, 20%);
     text-align: center;
     margin-top: 14.5em;
     font-size: 28px;
@@ -473,9 +471,10 @@ footer {
   margin-left: -4em;
 }
   .paragraph-5{
-    transform: translate(-30%, 20%);
+    box-sizing: border-box;
+    transform: translate(-20%, 20%);
     margin-top: -1em;
-
+    margin-left:-18em;
   }
 
   .paragraph-5 {
