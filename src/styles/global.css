@@ -443,7 +443,7 @@ footer {
     display: flex;
     justify-content: center;
     align-content: center;
-    zoom: 0.6;
+    zoom: 0.5;
   }
   .heading {
     margin-top: 14.5em;
