@@ -446,9 +446,6 @@ footer {
     zoom: 0.7;
   }
   .heading {
-    box-sizing: border-box;
-    transform: translate(-20%, 20%);
-    text-align: center;
     margin-top: 14.5em;
     font-size: 28px;
     line-height: 36.4px;
@@ -467,7 +464,6 @@ footer {
   margin-left: -4em;
 }
   .paragraph-5{
-     transform: translate(-20%, 20%);
     margin-top: -1em;
     margin-left:-18em;
   }
