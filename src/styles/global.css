@@ -395,6 +395,9 @@ footer {
 @media screen and (min-width:320px) {
   .description{
     zoom: 0.6;
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
 }
 
