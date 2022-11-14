@@ -443,13 +443,15 @@ footer {
     display: flex;
     justify-content: center;
     align-content: center;
-    zoom: 0.5;
+    text-align: center;
+    zoom: 0.7;
   }
   .heading {
-    margin-top: 14.5em;
+    margin-top: 15.5em;
     font-size: 28px;
     line-height: 36.4px;
     font-weight: 900;
+  
   }
 
   .first-row, .second-row{
@@ -465,7 +467,7 @@ footer {
 }
   .paragraph-5{
     margin-top: -1em;
-    margin-left:-18em;
+    margin-left:-15em;
   }
 
   .paragraph-5 {
