@@ -14,7 +14,7 @@ body{
 .container{
     width: 45%;
     min-width: 500px;
-    
+    zoom: 0.8;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
