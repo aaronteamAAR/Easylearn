@@ -391,19 +391,8 @@ footer {
   align-content: center;
   justify-content: space-between;
 }
-@media (max-width: 390px) {
-    
 
-.h1-text{
-  zoom: 0.9;
-  text-align: center;
-}
-
-
-
-
-}
-@media screen and (max-width: 900px) {
+@media screen and (min-width:320px) and (max-width: 900px )   {
   .h1-wrapper {
     zoom: 0.8;
   }
@@ -471,8 +460,7 @@ footer {
   margin-left: -4em;
 }
   .paragraph-5{
-    box-sizing: border-box;
-    transform: translate(-20%, 20%);
+     transform: translate(-20%, 20%);
     margin-top: -1em;
     margin-left:-18em;
   }
