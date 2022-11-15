@@ -392,14 +392,7 @@ footer {
   justify-content: space-between;
 }
 
-@media only screen and (max-width: 600px) {
- 
-  .description{
-    zoom: 0.7;
-    margin-left: 6em;
-  }
 
-}
 
 @media screen and (max-width: 900px )   {
   .h1-wrapper {
@@ -447,9 +440,7 @@ footer {
     display: none;
   }
 
-.description{
-  zoom: 0.6;
-}
+
  
   .heading {
     box-sizing: border-box;
