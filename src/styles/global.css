@@ -447,7 +447,9 @@ footer {
     display: none;
   }
 
-
+.description{
+  zoom: 0.6;
+}
  
   .heading {
     box-sizing: border-box;
