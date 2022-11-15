@@ -392,7 +392,13 @@ footer {
   justify-content: space-between;
 }
 
+@media only screen and (max-width: 600px) {
+ 
+  .h1-text{
+    text-align: center;
+  }
 
+}
 
 @media screen and (max-width: 900px )   {
   .h1-wrapper {
